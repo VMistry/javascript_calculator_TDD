@@ -64,23 +64,23 @@ describe("Intro to do TDD in javaScript", function(){
   })
   //function 3
   it("should return the string squareRoot", function(){
-    expect(calculator.MorI("sr")).toEqual("squareRoot");
+    expect(calculator.SorP("sr")).toEqual("squareRoot");
   })
 
   it("should return the string squareRoot", function(){
-    expect(calculator.MorI("square root")).toEqual("squareRoot");
+    expect(calculator.SorP("square root")).toEqual("squareRoot");
   })
 
   it("should return the string power", function(){
-    expect(calculator.MorI("p")).toEqual("power");
+    expect(calculator.SorP("p")).toEqual("power");
   })
 
   it("should return the string power", function(){
-    expect(calculator.MorI("power")).toEqual("power");
+    expect(calculator.SorP("power")).toEqual("power");
   })
 
   it("should return the string Error.", function(){
-    expect(calculator.MorI("d")).toEqual("Error.");
+    expect(calculator.SorP("d")).toEqual("Error.");
   })
 
   //function 4
@@ -92,7 +92,39 @@ describe("Intro to do TDD in javaScript", function(){
     expect(calculator.power(9, 2)).toEqual(81);
   })
   //function 6
+  it("should return the string metric", function(){
+    expect(calculator.MorI("m")).toEqual("metric");
+  })
 
+  it("should return the string metric", function(){
+    expect(calculator.MorI("metric")).toEqual("metric");
+  })
+
+  it("should return the string imperial", function(){
+    expect(calculator.MorI("i")).toEqual("imperial");
+  })
+
+  it("should return the string imperial", function(){
+    expect(calculator.MorI("imperial")).toEqual("imperial");
+  })
+
+  //*//
+  //function 7
+  it("should return the correct BMI in metrics", function(){
+    expect(calculator.metricBMI(70, 1.75)).toEqual(22.9);
+  })
+  //fucntion 8
+  it("should return the correct BMI in imperial", function(){
+    expect(calculator.imperialBMI(150, 64)).toEqual(25.7);
+  })
+  //function 9
+  it("should return the correct trip cost", function(){
+    expect(calculator.Trip_cost(815, 9, 1.50)).toEqual(110);
+  })
+  //function 10
+  it("should return the correct lenght of time to get from a to b", function(){
+    expect(calculator.Trip_time(200, 20)).toEqual(10);
+  })
 
 })
 //1)split code in to two files.
