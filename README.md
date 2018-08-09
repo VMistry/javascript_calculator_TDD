@@ -38,15 +38,15 @@ For the advanced calculator, I had to test:
 ##### BMI Calculator:
 * Metric
   * Should take in two inputs:
-   * The first would be the weight in kg.
-   * The second would be the height in meters.
+    * The first would be the weight in kg.
+    * The second would be the height in meters.
   * The weight should be divide by the height twice to give the BMI.
  
  * Imperial
-  * Should take in two inputs:
-   * The first would be the weight in pounds.
-   * The second would be the height in inches.
-  * The weight should be multiplied by 703, then divide by the height twice to give the BMI.
+   * Should take in two inputs:
+     * The first would be the weight in pounds.
+     * The second would be the height in inches.
+   * The weight should be multiplied by 703, then divide by the height twice to give the BMI.
 
 ##### Trip Calculator
 This feature asks the user for four inputs; distance, fuel efficiency (mpg), cost per gallon, speed and it will give you the time and price of your journey.
