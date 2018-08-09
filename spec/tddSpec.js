@@ -122,7 +122,7 @@ describe("Intro to do TDD in javaScript", function(){
     expect(calculator.Trip_cost(815, 9, 1.50)).toEqual(110);
   })
   //function 10
-  it("should return the correct lenght of time to get from a to b", function(){
+  it("should return the correct length of time to get from a to b", function(){
     expect(calculator.Trip_time(200, 20)).toEqual(10);
   })
 
